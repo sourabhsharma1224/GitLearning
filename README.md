@@ -77,3 +77,11 @@ staging area
 
 
 merge conflicts can occur if multiple people try to make changes to the same file, and then collaborate 
+
+11. How will you create a git repository?
+Have git installed in your system. 
+Then in order to create a git repository, create a folder for the project and then run git init. 
+Doing this will create a .git file in the project folder which indicates that the repository has been created.
+
+13. Tell me something about git stash?
+Git stash can be used in cases where we need to switch in between branches and at the same time not wanting to lose edits in the current branch. Running the git stash command basically pushes the current working directory state and index to the stack for future use and thereby providing a clean working directory for other tasks.
